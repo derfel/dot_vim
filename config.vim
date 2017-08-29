@@ -6,7 +6,12 @@
 " Color
 " ---------------
 set background=dark
-colorscheme jellybeans
+
+if (has("termguicolors"))
+	set termguicolors
+endif
+
+colorscheme derfel
 " Force 256 color mode if available
 if $TERM =~ '-256color'
    set t_Co=256
@@ -23,6 +28,8 @@ exec 'set spellfile=' . g:vimdir . '/spell/custom.en.utf-8.add'
 if has('persistent_undo')
   set undofile
   exec 'set undodir=' . g:vimdir . '/.undo'
+  set undolevels=1000 "maximum number of changes that can be undone
+  set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 endif
 
 " ---------------
@@ -38,7 +45,7 @@ set encoding=utf-8
 set noshowmode     " Don't show the mode since Powerline shows it
 set title          " Set the title of the window in the terminal to the file
 if exists('+colorcolumn')
-  set colorcolumn=80 " Color the 80th column differently as a wrapping guide.
+  set colorcolumn=120 " Color the 80th column differently as a wrapping guide.
 endif
 " Disable tooltips for hovering keywords in Vim
 if exists('+ballooneval')
@@ -72,21 +79,24 @@ set foldlevelstart=99  " I really don't like folds.
 set formatoptions=crql
 set iskeyword+=\$,-   " Add extra characters that are valid parts of variables
 set nostartofline      " Don't go to the start of the line after some commands
-set scrolloff=3        " Keep three lines below the last line when scrolling
+set scrolloff=6        " Keep six lines below the last line when scrolling
+set sidescrolloff=15
+set sidescroll=1
 set gdefault           " this makes search/replace global by default
 set switchbuf=useopen  " Switch to an existing buffer if one exists
+set autochdir		" chdir to the file dir
 
 " ---------------
 " Text Format
 " ---------------
-set tabstop=2
+set tabstop=8
 set backspace=indent,eol,start " Delete everything with backspace
-set shiftwidth=2 " Tabs under smart indent
+set shiftwidth=8 " Tabs under smart indent
 set shiftround
 set cindent
 set autoindent
 set smarttab
-set expandtab
+set noexpandtab
 
 " ---------------
 " Searching
@@ -105,7 +115,7 @@ set wildignore+=*.o,*.obj,*.exe,*.so,*.dll,*.pyc,.svn,.hg,.bzr,.git,
 set showmatch   " Show matching brackets.
 set matchtime=2 " How many tenths of a second to blink
 " Show invisible characters
-set list
+"set list
 
 " Show trailing spaces as dots and carrots for extended lines.
 " From Janus, http://git.io/PLbAlw
@@ -113,7 +123,7 @@ set list
 " Reset the listchars
 set listchars=""
 " make tabs visible
-set listchars=tab:▸▸
+set listchars=tab:»·
 " make non-breakable spaces visible
 set listchars+=nbsp:¬
 " show trailing spaces as dots
@@ -124,6 +134,8 @@ set listchars+=extends:>
 " The character to show in the last column when wrap is off and the line
 " continues beyond the right of the screen
 set listchars+=precedes:<
+set listchars+=eol:↵
+set nolist " default disable
 
 " ---------------
 " Sounds
