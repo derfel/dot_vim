@@ -55,6 +55,80 @@ nnoremap ` '
 " Don't move on *
 nnoremap <silent> * :let stay_star_view = winsaveview()<cr>*:call winrestview(stay_star_view)<cr>
 
+" ----------------------------------------
+" Personal Bindings
+" ----------------------------------------
+" Delete word in command mode.
+map <C-W> bdw
+" Empty line in command mode.
+map <C-U> 1\|D
+" F4: Paste with(out) indent.
+set pastetoggle=<F4>
+" F5: Reload File
+map <F5> :e<CR>
+" F6: TagBar -- Vim Class Outline viewer
+nmap <F6> :TagbarToggle<CR>
+" F7: converte da formato DOS a unix
+map <F7> :set fileformat=unix<CR>
+" F8: converte da formato unix a DOS
+map <F8> :set fileformat=dos<CR>
+" F9: show white space
+noremap <F9> :set list!<CR>
+" F3: show undotree
+nnoremap <F3> :UndotreeToggle<cr>
+" F2: show undotree
+nnoremap <F2> :SignifyToggle<cr>
+
+:nnoremap <CR> :nohlsearch<cr>
+" clear the search buffer when hitting return
+
+" Switch tab
+map <C-Left> <Esc>:tabprev<CR>
+map <C-Right> <Esc>:tabnext<CR>
+map <C-n> <Esc>:tabnew
+
+" svuota le righe con solo spazi o tab
+map <leader>slv :%s/^\s\+$//<C-M>
+" cancella le righe con solo spazi o tab
+map <leader>clv :g/^\s\+$/d<C-M>
+" converte piu` righe vuote in una sola
+map <leader>ulv :g/^$/,/./-j<C-M>
+" Empty quoted lines
+map <leader>slqv :%s/^[><C-I> ]\+$//<C-M>
+" Delete empty quoted lines
+map <leader>clqv :g/^[><C-I> ]\+$/d<C-M>
+" Delete spaces between '>'
+map <leader>cstq :%s/> >/>>/g<C-M>
+" Toglie completamente il quote
+map <leader>tq :%s/^[><C-I> ]*//g<C-M>
+" rimuove le signature quotate
+map <leader>cf G/^[><C-I> ]*-- $<C-M>dG
+" quota il testo
+" FIXME: Fare una funzione che non aggiunga lo spazio in caso di più livelli.
+map <leader>aq :%s/^/> /<C-M>
+
+" ---------------
+" Nextval
+" ---------------
+nmap <silent> <unique> + <Plug>nextvalInc
+nmap <silent> <unique> - <Plug>nextvalDec
+
+" ---------------
+" Expand Region 
+" ---------------
+vmap + <Plug>(expand_region_expand)
+vmap - <Plug>(expand_region_shrink)
+
+" ----------------------------------------
+" SmartHome
+" ----------------------------------------
+" Cycle between first char and first non space char
+noremap  <expr> <Home> (col('.') == matchend(getline('.'), '^\s*')+1 ? '0'  : '^')
+noremap  <expr> <End>  (col('.') == match(getline('.'),    '\s*$')   ? '$'  : 'g_')
+vnoremap <expr> <End>  (col('.') == match(getline('.'),    '\s*$')   ? '$h' : 'g_')
+imap <Home> <C-o><Home>
+imap <End>  <C-o><End>
+
 " ---------------
 " Window Movement
 " ---------------
