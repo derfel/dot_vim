@@ -3,8 +3,17 @@ if exists('g:plug_installing_plugins')
   finish
 endif
 
-let g:ale_sign_error = '✖'
-let g:ale_sign_warning = '⚠'
+" Unicode symbol
+" let g:ale_sign_error = '✖'
+" let g:ale_sign_warning = '⚠'
+
+" Emoji
+let g:ale_sign_error = '⛔️'
+let g:ale_sign_warning = '⚠️'
+let g:ale_sign_info = '💡'
+let g:ale_sign_style_error = '❌'
+let g:ale_sign_style_warning = '☢️'
+
 " Otherwise huge files might get linted and freeze.
 let g:ale_lint_on_enter = 0
 
