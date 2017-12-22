@@ -25,5 +25,7 @@ nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
 
 let g:ale_fixers = {
-\   'javascript': ['eslint'],
+\	'javascript': ['eslint'],
+\	'typescript': ['tslint'],
+\	'python': ['yapf'],
 \}
