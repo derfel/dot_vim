@@ -76,7 +76,7 @@ set ttimeout
 set ttimeoutlen=100    " Time to wait for a key sequence.
 set nofoldenable       " Disable folding entirely.
 set foldlevelstart=99  " I really don't like folds.
-set formatoptions=crql
+set formatoptions=crqlj
 set iskeyword+=\$,-   " Add extra characters that are valid parts of variables
 set nostartofline      " Don't go to the start of the line after some commands
 set scrolloff=6        " Keep six lines below the last line when scrolling
