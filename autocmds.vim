@@ -41,6 +41,8 @@ if has('autocmd')
     autocmd! CmdwinEnter * :unmap <cr>
     autocmd! CmdwinLeave * :call MapCR()
 
+	autocmd filetype python set softtabstop=8 shiftwidth=8
+
     " Resize splits when the window is resized
     " from https://bitbucket.org/sjl/dotfiles/src/tip/vim/vimrc
     au VimResized * :wincmd =
