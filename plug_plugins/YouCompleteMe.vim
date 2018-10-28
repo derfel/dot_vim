@@ -1,5 +1,5 @@
 if exists('g:plug_installing_plugins')
-  Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+  Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all' }
   finish
 endif
 
