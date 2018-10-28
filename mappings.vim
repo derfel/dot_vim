@@ -55,6 +55,12 @@ nnoremap ` '
 " Don't move on *
 nnoremap <silent> * :let stay_star_view = winsaveview()<cr>*:call winrestview(stay_star_view)<cr>
 
+" switch from Terminal mode back to Normal mode by pressing they <Esc> key
+if has('nvim')
+	tnoremap <Esc> <C-\><C-n>
+	tnoremap <C-v><Esc> <Esc>
+endif
+
 " ----------------------------------------
 " Personal Bindings
 " ----------------------------------------
@@ -114,7 +120,7 @@ nmap <silent> <unique> + <Plug>nextvalInc
 nmap <silent> <unique> - <Plug>nextvalDec
 
 " ---------------
-" Expand Region 
+" Expand Region
 " ---------------
 vmap + <Plug>(expand_region_expand)
 vmap - <Plug>(expand_region_shrink)
