@@ -29,3 +29,6 @@ let g:ale_fixers = {
 \	'typescript': ['tslint'],
 \	'python': ['yapf'],
 \}
+
+let g:ale_python_pylint_executable = 'pylint3'
+
