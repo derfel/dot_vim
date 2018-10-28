@@ -1,5 +1,5 @@
 if exists('g:plug_installing_plugins')
-  Plug 'junegunn/fzf'
+  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
   Plug 'junegunn/fzf.vim'
   finish
 endif
