@@ -11,11 +11,12 @@ if (has("termguicolors"))
 	set termguicolors
 endif
 
-colorscheme derfel
+"colorscheme derfel
+colorscheme solarized8_dark_high
 " Force 256 color mode if available
-if $TERM =~ '-256color'
-   set t_Co=256
-endif
+"if $TERM =~ '-256color'
+""   set t_Co=256
+"endif
 
 " -----------------------------
 " File Locations
@@ -152,3 +153,8 @@ set mouse=a    " Mouse in all modes
 
 " Better complete options to speed it up
 set complete=.,w,b,u,U
+
+" Avoid neovim nested instances from command using $VISUAL
+if has('nvim') && executable('nvr')
+	let $VISUAL="nvr -cc vsplit --remote-wait +'set bufhidden=wipe'"
+endif
