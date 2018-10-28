@@ -202,6 +202,15 @@ endfunction
 command! SortBlock call SortBlock()
 nnoremap <silent> <leader>sb :SortBlock<CR>
 
+" --------------------------
+" Format json
+" --------------------------
+function! FormatJSON()
+	:set filetype=json
+	:%!python -m json.tool
+endfunction
+command! FormatJSON call FormatJSON()
+
 
 " -------
 " Profile
@@ -242,3 +251,27 @@ endfunction
 command! -nargs=0 StopProfiling call ProfileStop()
 " If I want to profile something after that vim started
 command! -nargs=0 StartProfiling call ProfileStart()
+
+" ---------------
+" Show all mappings into an seachable window
+" From: https://github.com/gmatheu/dot_vim/blob/1c1e6158f89acbdaeff48664cfc81e85707ca1cf/functions.vim
+" ---------------
+function! s:ShowMaps()
+	let old_reg = getreg("a")          " save the current content of register a
+	let old_reg_type = getregtype("a") " save the type of the register as well
+	try
+		redir @a                           " redirect output to register a
+		" Get the list of all key mappings silently, satisfy "Press ENTER to continue"
+		silent map | call feedkeys("\<CR>")
+		redir END                          " end output redirection
+		vnew                               " new buffer in vertical window
+		put a                              " put content of register
+		" Sort on 4th character column which is the key(s)
+		%!sort -k1.4,1.4
+	finally                              " Execute even if exception is raised
+		call setreg("a", old_reg, old_reg_type) " restore register a
+	endtry
+endfunction
+com! ShowMaps call s:ShowMaps()      " Enable :ShowMaps to call the function
+
+nnoremap \m :ShowMaps<CR>            " Map keys to call the function
