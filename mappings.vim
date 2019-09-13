@@ -39,8 +39,8 @@ noremap H ^
 noremap L $
 
 " Create newlines without entering insert mode
-nnoremap go o<Esc>k
-nnoremap gO O<Esc>j
+nnoremap go m`o<Esc>``
+nnoremap gO m`O<Esc>``
 
 " remap U to <C-r> for easier redo
 " from http://vimbits.com/bits/356
@@ -225,7 +225,7 @@ nnoremap <silent> <leader>hs :split<Bar>:wincmd j<CR>:wincmd =<CR>
 nnoremap <silent> <leader>vs :vsplit<Bar>:wincmd l<CR>:wincmd =<CR>
 
 " Close the current window
-nnoremap <silent> <m-w> :close<CR>
+nnoremap <silent> <M-w> :close<CR>
 
 " Plug mappings here because they don't work in plug.vim
 nnoremap <leader>pi :PlugInstall<CR>

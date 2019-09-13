@@ -6,17 +6,19 @@
 " Color
 " ---------------
 set background=dark
-
-if (has("termguicolors"))
-	set termguicolors
-endif
-
 "colorscheme derfel
 colorscheme solarized8_dark_high
 " Force 256 color mode if available
-"if $TERM =~ '-256color'
-""   set t_Co=256
-"endif
+if $TERM =~ '-256color'
+  set t_Co=256
+endif
+
+" Enable true color
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
 
 " -----------------------------
 " File Locations

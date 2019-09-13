@@ -1,4 +1,4 @@
 if exists('g:plug_installing_plugins')
-  Plug 'vim-scripts/scratch.vim'
+  Plug 'zxqfl/tabnine-vim'
   finish
 endif
