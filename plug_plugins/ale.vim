@@ -27,8 +27,6 @@ nmap <silent> <C-j> <Plug>(ale_next_wrap)
 let g:ale_fixers = {
 \	'javascript': ['eslint'],
 \	'typescript': ['tslint'],
-\	'python': ['yapf'],
+\	'python': ['yapf3'],
 \}
-
-let g:ale_python_pylint_executable = 'pylint3'
 
