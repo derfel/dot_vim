@@ -1,5 +1,5 @@
 if exists('g:plug_installing_plugins')
-	Plug 'klen/python-mode'
+	Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 	finish
 endif
 

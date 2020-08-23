@@ -1,4 +1,4 @@
 if exists('g:plug_installing_plugins')
-  Plug 'nelstrom/vim-textobj-rubyblock'
+  Plug 'tmux-plugins/vim-tmux-focus-events'
   finish
 endif

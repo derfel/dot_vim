@@ -5,6 +5,12 @@ endif
 
 let g:switch_mapping = '-'
 
+let g:switch_custom_definitions =
+    \ [
+    \   ['eslint-enable', 'eslint-disable'],
+    \   ['TRUE', 'FALSE']
+    \ ]
+
 augroup SwitchJavaScript
   autocmd FileType javascript let b:switch_custom_definitions =
         \  [

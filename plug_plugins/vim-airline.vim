@@ -38,7 +38,7 @@ let g:airline_detect_modified = 0
 ""  \ ]
 " From https://github.com/bling/vim-airline/issues/316
 " Custmize modified flag
-let g:airline_detect_modified = 0
+
 call airline#parts#define_raw('modified', '%{&modified ? " [*]" : ""}')
 call airline#parts#define_accent('modified', 'red')
 let g:airline_section_c = airline#section#create(['%f', 'modified'])

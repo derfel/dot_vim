@@ -1,5 +1,4 @@
 if exists('g:plug_installing_plugins')
-  Plug 'honza/vim-snippets'
+  Plug 'markonm/traces.vim'
   finish
 endif
-

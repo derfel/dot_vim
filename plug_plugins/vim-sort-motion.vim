@@ -1,4 +1,4 @@
 if exists('g:plug_installing_plugins')
-  Plug 'ervandew/supertab'
+  Plug 'christoomey/vim-sort-motion'
   finish
 endif

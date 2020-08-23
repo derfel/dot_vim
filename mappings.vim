@@ -138,12 +138,9 @@ imap <End>  <C-o><End>
 " ---------------
 " Window Movement
 " ---------------
-nnoremap <silent> gh :WriteBufferIfNecessary<CR>:wincmd h<CR>
 nnoremap <silent> <M-h> :wincmd h<CR>
-nnoremap <silent> gj :WriteBufferIfNecessary<CR>:wincmd j<CR>
-nnoremap <silent> gk :WriteBufferIfNecessary<CR>:wincmd k<CR>
+nnoremap <silent> <M-j> :wincmd j<CR>
 nnoremap <silent> <M-k> :wincmd k<CR>
-nnoremap <silent> gl :WriteBufferIfNecessary<CR>:wincmd l<CR>
 nnoremap <silent> <M-l> :wincmd l<CR>
 
 "   4 Window Splits
@@ -216,9 +213,6 @@ nnoremap <silent> <leader>uul :t.\|s/./=/\|:nohls<cr>
 "          # Test 123
 "          # --------
 nnoremap <silent> <leader>cul :normal "lyy"lpwvLr-^"lyyk"lP<cr>
-
-" Format the entire file
-nnoremap <leader>fef mx=ggG='x
 
 " Split window vertically or horizontally *and* switch to the new split!
 nnoremap <silent> <leader>hs :split<Bar>:wincmd j<CR>:wincmd =<CR>

@@ -14,5 +14,7 @@ let g:NERDTreeMinimalUI = 0
 let g:NERDTreeNaturalSort = 1
 
 " Close Vim if NERDTree is the last buffer
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType")
+  \&& b:NERDTreeType == "primary") | q | endif
 
+autocmd FileType nerdtree setlocal nocursorline
