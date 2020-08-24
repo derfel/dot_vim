@@ -22,7 +22,7 @@ let g:jellybeans_overrides = {
 \                }
 \}
 
-colorscheme jellybeans
+"colorscheme jellybeans
 
 " A nicer red, also from https://git.io/Jfs2T
 hi! CocErrorSign guifg=#FF5656
@@ -34,3 +34,6 @@ hi! link cssAttr Constant
 hi! CocHighlightText guibg=#333333 gui=underline
 
 hi! CocInfoSign guifg=LightBlue
+
+hi! Pmenu ctermfg=Black ctermbg=Yellow guifg=D6D6D6 guibg=303030
+hi! PmenuSel ctermfg=Yellow ctermbg=Black guifg=2B2B2B guibg=D6D6D6
