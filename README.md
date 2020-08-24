@@ -81,97 +81,95 @@ This example installs [`vim-move`](https://github.com/matze/vim-move).
 
 | Stars&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | **Plugin** | **Description** |
 | :------- | :--------- | :-------------- |
-| ★ 14,551 |[YouCompleteMe](https://github.com/Valloric/YouCompleteMe) [:page_facing_up:](plug_plugins/YouCompleteMe.vim)|A code-completion engine for Vim |
-| ★ 10,021 |[fzf](https://github.com/junegunn/fzf) [:page_facing_up:](plug_plugins/fzf.vim)|:cherry_blossom: A command-line fuzzy finder written in Go |
-| ★ 9,673 |[vim-airline](https://github.com/vim-airline/vim-airline) [:page_facing_up:](plug_plugins/vim-airline.vim)|lean & mean status/tabline for vim that's light as air |
-| ★ 8,564 |[vim-fugitive](https://github.com/tpope/vim-fugitive) [:page_facing_up:](plug_plugins/vim-fugitive.vim)|fugitive.vim: a Git wrapper so awesome, it should be illegal |
-| ★ 8,464 |[nerdtree](https://github.com/scrooloose/nerdtree) [:page_facing_up:](plug_plugins/nerdtree.vim)|A tree explorer plugin for vim. |
-| ★ 5,532 |[vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) [:page_facing_up:](plug_plugins/vim-multiple-cursors.vim)|True Sublime Text style multiple selections for Vim |
-| ★ 4,847 |[vim-surround](https://github.com/tpope/vim-surround) [:page_facing_up:](plug_plugins/vim-surround.vim)|surround.vim: quoting/parenthesizing made simple |
-| ★ 3,850 |[emmet-vim](https://github.com/mattn/emmet-vim) [:page_facing_up:](plug_plugins/emmet-vim.vim)|emmet for vim: http://emmet.io/ |
-| ★ 3,707 |[python-mode](https://github.com/klen/python-mode) [:page_facing_up:](plug_plugins/python-mode.vim)|Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box. |
-| ★ 3,301 |[vim-easymotion](https://github.com/easymotion/vim-easymotion) [:page_facing_up:](plug_plugins/vim-easymotion.vim)|Vim motions on speed! |
-| ★ 3,269 |[ultisnips](https://github.com/SirVer/ultisnips) [:page_facing_up:](plug_plugins/ultisnips.vim)|UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/ultisnips! |
-| ★ 3,111 |[tagbar](https://github.com/majutsushi/tagbar)|Vim plugin that displays tags in a window, ordered by scope |
-| ★ 2,767 |[ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim) [:page_facing_up:](plug_plugins/ctrlp.vim)|Active fork of kien/ctrlp.vim—Fuzzy file, buffer, mru, tag, etc finder. |
-| ★ 2,613 |[ale](https://github.com/w0rp/ale) [:page_facing_up:](plug_plugins/ale.vim)|Asynchronous Lint Engine |
-| ★ 2,387 |[vim-javascript](https://github.com/pangloss/vim-javascript) [:page_facing_up:](plug_plugins/vim-javascript.vim)|Vastly improved Javascript indentation and syntax support in Vim. |
-| ★ 2,347 |[vim-snippets](https://github.com/honza/vim-snippets) [:page_facing_up:](plug_plugins/vim-snippets.vim)|vim-snipmate default snippets (Previously snipmate-snippets) |
-| ★ 2,193 |[supertab](https://github.com/ervandew/supertab)|Perform all your vim insert mode completions with Tab |
-| ★ 2,178 |[vim-markdown](https://github.com/plasticboy/vim-markdown)|Markdown Vim Mode |
-| ★ 1,843 |[vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) [:page_facing_up:](plug_plugins/vim-tmux-navigator.vim)|Seamless navigation between tmux panes and vim splits |
-| ★ 1,841 |[vim-startify](https://github.com/mhinz/vim-startify) [:page_facing_up:](plug_plugins/vim-startify.vim)|:link: The fancy start screen for Vim. |
-| ★ 1,808 |[vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides) [:page_facing_up:](plug_plugins/vim-indent-guides.vim)|A Vim plugin for visually displaying indent levels in code |
-| ★ 1,577 |[tabular](https://github.com/godlygeek/tabular) [:page_facing_up:](plug_plugins/tabular.vim)|Vim script for text filtering and alignment |
-| ★ 1,556 |[tern_for_vim](https://github.com/ternjs/tern_for_vim)|Tern plugin for Vim |
-| ★ 1,518 |[vim-devicons](https://github.com/ryanoasis/vim-devicons) [:page_facing_up:](plug_plugins/vim-devicons.vim)|:symbols: Adds file type glyphs/icons to popular Vim plugins: NERDTree, vim-airline, Powerline, Unite, vim-startify and more |
-| ★ 1,510 |[vim-unimpaired](https://github.com/tpope/vim-unimpaired)|unimpaired.vim: pairs of handy bracket mappings |
-| ★ 1,413 |[editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) [:page_facing_up:](plug_plugins/editorconfig-vim.vim)|EditorConfig plugin for Vim |
-| ★ 1,399 |[vimux](https://github.com/benmills/vimux) [:page_facing_up:](plug_plugins/vimux.vim)|vim plugin to interact with tmux |
-| ★ 1,398 |[vim-polyglot](https://github.com/sheerun/vim-polyglot) [:page_facing_up:](plug_plugins/vim-polyglot.vim)|A solid language pack for Vim. |
-| ★ 1,339 |[gist-vim](https://github.com/mattn/gist-vim) [:page_facing_up:](plug_plugins/gist-vim.vim)|vimscript for gist |
-| ★ 1,338 |[auto-pairs](https://github.com/jiangmiao/auto-pairs)|Vim plugin, insert or delete brackets, parens, quotes in pair |
-| ★ 1,286 |[fzf.vim](https://github.com/junegunn/fzf.vim) [:page_facing_up:](plug_plugins/fzf.vim)|fzf :heart: vim |
-| ★ 1,126 |[vim-signify](https://github.com/mhinz/vim-signify) [:page_facing_up:](plug_plugins/vim-signify.vim)|:heavy_plus_sign: Show a diff using Vim its sign column. |
-| ★ 1,117 |[jellybeans.vim](https://github.com/nanotech/jellybeans.vim) [:page_facing_up:](plug_plugins/jellybeans.vim)|A colorful, dark color scheme for Vim. |
-| ★ 1,075 |[vim-abolish](https://github.com/tpope/vim-abolish)|abolish.vim: easily search for, substitute, and abbreviate multiple variants of a word |
-| ★ 1,043 |[vim-repeat](https://github.com/tpope/vim-repeat)|repeat.vim: enable repeating supported plugin maps with "." |
-| ★ 916 |[targets.vim](https://github.com/wellle/targets.vim)|Vim plugin that provides additional text objects |
-| ★ 801 |[tcomment_vim](https://github.com/tomtom/tcomment_vim) [:page_facing_up:](plug_plugins/tcomment_vim.vim)|An extensible & universal comment vim-plugin that also handles embedded filetypes |
-| ★ 750 |[nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)|A plugin of NERDTree showing git status |
-| ★ 713 |[undotree](https://github.com/mbbill/undotree) [:page_facing_up:](plug_plugins/undotree.vim)|The ultimate undo history visualizer for VIM |
-| ★ 701 |[vim-css-color](https://github.com/ap/vim-css-color)|Preview colours in source code while editing |
-| ★ 682 |[incsearch.vim](https://github.com/haya14busa/incsearch.vim) [:page_facing_up:](plug_plugins/incsearch.vim)|:flashlight: Improved incremental searching for Vim |
-| ★ 667 |[vim-session](https://github.com/xolox/vim-session) [:page_facing_up:](plug_plugins/vim-session.vim)|Extended session management for Vim (:mksession on steroids) |
-| ★ 660 |[vim-textobj-user](https://github.com/kana/vim-textobj-user)|Vim plugin: Create your own text objects |
-| ★ 659 |[vim-eunuch](https://github.com/tpope/vim-eunuch)|eunuch.vim: helpers for UNIX |
-| ★ 638 |[vim-jsbeautify](https://github.com/maksimr/vim-jsbeautify) [:page_facing_up:](plug_plugins/vim-jsbeautify.vim)|vim plugin which formated javascript files by js-beautify |
-| ★ 634 |[vim-node](https://github.com/moll/vim-node)|Tools and environment to make Vim superb for developing with Node.js. Like Rails.vim for Node. |
-| ★ 558 |[vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)|A collection of themes for vim-airline |
-| ★ 552 |[vim-grepper](https://github.com/mhinz/vim-grepper) [:page_facing_up:](plug_plugins/vim-grepper.vim)|:space_invader: Helps you win at grep. |
-| ★ 447 |[vim-cpp-enhanced-highlight](https://github.com/octol/vim-cpp-enhanced-highlight) [:page_facing_up:](plug_plugins/vim-cpp-enhanced-highlight.vim)|Additional Vim syntax highlighting for C++ (including C++11/14) |
-| ★ 407 |[csv.vim](https://github.com/chrisbra/csv.vim)|A Filetype plugin for csv files |
-| ★ 403 |[webapi-vim](https://github.com/mattn/webapi-vim)|vim interface to Web API |
-| ★ 374 |[MatchTagAlways](https://github.com/Valloric/MatchTagAlways) [:page_facing_up:](plug_plugins/MatchTagAlways.vim)|A Vim plugin that always highlights the enclosing html/xml tags |
-| ★ 317 |[neoformat](https://github.com/sbdchd/neoformat) [:page_facing_up:](plug_plugins/neoformat.vim)|:sparkles: A (Neo)vim plugin for formatting code. |
-| ★ 287 |[vim-textobj-rubyblock](https://github.com/nelstrom/vim-textobj-rubyblock)|A custom text object for selecting ruby blocks. |
-| ★ 272 |[switch.vim](https://github.com/AndrewRadev/switch.vim) [:page_facing_up:](plug_plugins/switch.vim)|A simple Vim plugin to switch segments of text with predefined replacements |
-| ★ 266 |[vim-hardtime](https://github.com/takac/vim-hardtime) [:page_facing_up:](plug_plugins/vim-hardtime.vim)|Plugin to help you stop repeating the basic movement keys |
-| ★ 252 |[vim-misc](https://github.com/xolox/vim-misc)|Miscellaneous auto-load Vim scripts |
-| ★ 247 |[vim-numbertoggle](https://github.com/jeffkreeftmeijer/vim-numbertoggle)|Toggles between relative and absolute line numbers automatically |
-| ★ 219 |[scratch.vim](https://github.com/mtth/scratch.vim) [:page_facing_up:](plug_plugins/scratch.vim)|Unobtrusive scratch window |
-| ★ 179 |[vim-turbux](https://github.com/jgdavey/vim-turbux) [:page_facing_up:](plug_plugins/vim-turbux.vim)|Turbo Ruby testing with tmux |
-| ★ 179 |[open-browser.vim](https://github.com/tyru/open-browser.vim) [:page_facing_up:](plug_plugins/open-browser.vim)|Open URI with your favorite browser from your most favorite editor |
-| ★ 148 |[vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight) [:page_facing_up:](plug_plugins/vim-nerdtree-syntax-highlight.vim)|Extra syntax and highlight for nerdtree files |
-| ★ 146 |[vim-rhubarb](https://github.com/tpope/vim-rhubarb)|rhubarb.vim: GitHub extension for fugitive.vim |
-| ★ 122 |[vim-visual-star-search](https://github.com/nelstrom/vim-visual-star-search)|Start a * or # search from a visual block |
-| ★ 104 |[vim-anzu](https://github.com/osyo-manga/vim-anzu) [:page_facing_up:](plug_plugins/vim-anzu.vim)|Vim search status. |
-| ★ 104 |[colorv.vim](https://github.com/Rykka/colorv.vim) [:page_facing_up:](plug_plugins/colorv.vim)|A powerful color tool in vim |
-| ★ 91 |[github-complete.vim](https://github.com/rhysd/github-complete.vim)|Vim input completion for GitHub |
-| ★ 86 |[vim-marked](https://github.com/itspriddle/vim-marked)|Open the current Markdown buffer in Marked.app |
-| ★ 78 |[ListToggle](https://github.com/Valloric/ListToggle) [:page_facing_up:](plug_plugins/ListToggle.vim)|A vim plugin for toggling the display of the quickfix list and the location-list. |
-| ★ 73 |[vim-togglecursor](https://github.com/jszakmeister/vim-togglecursor) [:page_facing_up:](plug_plugins/vim-togglecursor.vim)|Toggle the cursor shape in the terminal for Vim. |
-| ★ 71 |[QFEnter](https://github.com/yssl/QFEnter) [:page_facing_up:](plug_plugins/QFEnter.vim)|Open a Quickfix item in a window you choose. (Vim plugin) |
-| ★ 64 |[Join](https://github.com/sk1418/Join)|a better (hopefully) :Join command in vim |
-| ★ 60 |[portkey](https://github.com/dsawardekar/portkey) [:page_facing_up:](plug_plugins/portkey.vim)|Navigate files at the speed of Vim. |
-| ★ 59 |[incsearch-fuzzy.vim](https://github.com/haya14busa/incsearch-fuzzy.vim) [:page_facing_up:](plug_plugins/incsearch-fuzzy.vim)| |
-| ★ 50 |[vim-side-search](https://github.com/ddrscott/vim-side-search) [:page_facing_up:](plug_plugins/vim-side-search.vim)|Search context in Vim in a sidebar using `ag` output |
-| ★ 50 |[textile.vim](https://github.com/timcharper/textile.vim)|Textile for VIM |
-| ★ 46 |[vim-swap](https://github.com/machakann/vim-swap)|Reorder delimited items. |
-| ★ 44 |[vim-lawrencium](https://github.com/ludovicchabant/vim-lawrencium)|A Mercurial wrapper for Vim. |
-| ★ 33 |[incsearch-easymotion.vim](https://github.com/haya14busa/incsearch-easymotion.vim) [:page_facing_up:](plug_plugins/incsearch-easymotion.vim)| |
-| ★ 29 |[zoomwintab.vim](https://github.com/troydm/zoomwintab.vim) [:page_facing_up:](plug_plugins/zoomwintab.vim)|zoomwintab vim plugin |
-| ★ 27 |[VisIncr](https://github.com/vim-scripts/VisIncr)|Produce increasing/decreasing columns of numbers, dates, or daynames |
-| ★ 25 |[vim-import-js](https://github.com/galooshi/vim-import-js) [:page_facing_up:](plug_plugins/vim-import-js.vim)|Vim plugin for ImportJS |
-| ★ 13 |[vim-voogle](https://github.com/papanikge/vim-voogle) [:page_facing_up:](plug_plugins/vim-voogle.vim)|google for the word under the cursor to a browser because 2013 |
-| ★ 9 |[polymer-ide.vim](https://github.com/webdesus/polymer-ide.vim) [:page_facing_up:](plug_plugins/polymer-ide.vim)|Provides  autocompletion, and more for web components |
-| ★ 3 |[GIFL](https://github.com/mutewinter/GIFL) [:page_facing_up:](plug_plugins/GIFL.vim)|Add "wrap terms in google I'm feeling lucky url" à la Textmate |
-| ★ 2 |[HelpClose](https://github.com/vim-scripts/HelpClose)|Close all help windows |
-| ★ 1 |[vim-autoreadwatch](https://github.com/mutewinter/vim-autoreadwatch)|A forked script for vim auto reloading of buffers when changed on disk. |
-| ★ 1 |[vim-tmux](https://github.com/mutewinter/vim-tmux)|http://tmux.svn.sourceforge.net/viewvc/tmux/trunk/examples/tmux.vim?view=log |
-| ★ 1 |[vim-textobj-reactprop](https://github.com/justinj/vim-textobj-reactprop)|A vim text object for a React prop |
-| ★ 0 |[splitjoin.vim](https://github.com/mutewinter/splitjoin.vim) [:page_facing_up:](plug_plugins/splitjoin.vim)|A vim plugin that simplifies the transition between multiline and single-line code |
+| ![Star count](https://flat.badgen.net/github/stars/junegunn/fzf?label=★&color=black) |[fzf](https://github.com/junegunn/fzf) [:page_facing_up:](plug_plugins/fzf.vim)|:cherry_blossom: A command-line fuzzy finder |
+| ![Star count](https://flat.badgen.net/github/stars/vim-airline/vim-airline?label=★&color=black) |[vim-airline](https://github.com/vim-airline/vim-airline) [:page_facing_up:](plug_plugins/vim-airline.vim)|lean & mean status/tabline for vim that's light as air |
+| ![Star count](https://flat.badgen.net/github/stars/scrooloose/nerdtree?label=★&color=black) |[nerdtree](https://github.com/scrooloose/nerdtree) [:page_facing_up:](plug_plugins/nerdtree.vim)|A tree explorer plugin for vim. |
+| ![Star count](https://flat.badgen.net/github/stars/tpope/vim-fugitive?label=★&color=black) |[vim-fugitive](https://github.com/tpope/vim-fugitive) [:page_facing_up:](plug_plugins/vim-fugitive.vim)|fugitive.vim: A Git wrapper so awesome, it should be illegal |
+| ![Star count](https://flat.badgen.net/github/stars/neoclide/coc.nvim?label=★&color=black) |[coc.nvim](https://github.com/neoclide/coc.nvim) [:page_facing_up:](plug_plugins/coc.nvim.vim)|Intellisense engine for Vim8 & Neovim, full language server protocol support as VSCode |
+| ![Star count](https://flat.badgen.net/github/stars/tpope/vim-surround?label=★&color=black) |[vim-surround](https://github.com/tpope/vim-surround) [:page_facing_up:](plug_plugins/vim-surround.vim)|surround.vim: quoting/parenthesizing made simple |
+| ![Star count](https://flat.badgen.net/github/stars/SirVer/ultisnips?label=★&color=black) |[ultisnips](https://github.com/SirVer/ultisnips) [:page_facing_up:](plug_plugins/ultisnips.vim)|UltiSnips - The ultimate snippet solution for Vim. Send pull requests to SirVer/ultisnips! |
+| ![Star count](https://flat.badgen.net/github/stars/junegunn/fzf.vim?label=★&color=black) |[fzf.vim](https://github.com/junegunn/fzf.vim) [:page_facing_up:](plug_plugins/fzf.vim)|fzf :heart: vim |
+| ![Star count](https://flat.badgen.net/github/stars/easymotion/vim-easymotion?label=★&color=black) |[vim-easymotion](https://github.com/easymotion/vim-easymotion) [:page_facing_up:](plug_plugins/vim-easymotion.vim)|Vim motions on speed! |
+| ![Star count](https://flat.badgen.net/github/stars/python-mode/python-mode?label=★&color=black) |[python-mode](https://github.com/python-mode/python-mode) [:page_facing_up:](plug_plugins/python-mode.vim)|Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box. |
+| ![Star count](https://flat.badgen.net/github/stars/majutsushi/tagbar?label=★&color=black) |[tagbar](https://github.com/majutsushi/tagbar)|Vim plugin that displays tags in a window, ordered by scope |
+| ![Star count](https://flat.badgen.net/github/stars/sheerun/vim-polyglot?label=★&color=black) |[vim-polyglot](https://github.com/sheerun/vim-polyglot) [:page_facing_up:](plug_plugins/vim-polyglot.vim)|A solid language pack for Vim. |
+| ![Star count](https://flat.badgen.net/github/stars/mhinz/vim-startify?label=★&color=black) |[vim-startify](https://github.com/mhinz/vim-startify) [:page_facing_up:](plug_plugins/vim-startify.vim)|:link: The fancy start screen for Vim. |
+| ![Star count](https://flat.badgen.net/github/stars/ryanoasis/vim-devicons?label=★&color=black) |[vim-devicons](https://github.com/ryanoasis/vim-devicons) [:page_facing_up:](plug_plugins/vim-devicons.vim)|Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and many more |
+| ![Star count](https://flat.badgen.net/github/stars/plasticboy/vim-markdown?label=★&color=black) |[vim-markdown](https://github.com/plasticboy/vim-markdown)|Markdown Vim Mode |
+| ![Star count](https://flat.badgen.net/github/stars/pangloss/vim-javascript?label=★&color=black) |[vim-javascript](https://github.com/pangloss/vim-javascript) [:page_facing_up:](plug_plugins/vim-javascript.vim)|Vastly improved Javascript indentation and syntax support in Vim. |
+| ![Star count](https://flat.badgen.net/github/stars/jiangmiao/auto-pairs?label=★&color=black) |[auto-pairs](https://github.com/jiangmiao/auto-pairs)|Vim plugin, insert or delete brackets, parens, quotes in pair |
+| ![Star count](https://flat.badgen.net/github/stars/editorconfig/editorconfig-vim?label=★&color=black) |[editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) [:page_facing_up:](plug_plugins/editorconfig-vim.vim)|EditorConfig plugin for Vim |
+| ![Star count](https://flat.badgen.net/github/stars/tpope/vim-unimpaired?label=★&color=black) |[vim-unimpaired](https://github.com/tpope/vim-unimpaired)|unimpaired.vim: Pairs of handy bracket mappings |
+| ![Star count](https://flat.badgen.net/github/stars/nathanaelkane/vim-indent-guides?label=★&color=black) |[vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides) [:page_facing_up:](plug_plugins/vim-indent-guides.vim)|A Vim plugin for visually displaying indent levels in code |
+| ![Star count](https://flat.badgen.net/github/stars/godlygeek/tabular?label=★&color=black) |[tabular](https://github.com/godlygeek/tabular) [:page_facing_up:](plug_plugins/tabular.vim)|Vim script for text filtering and alignment |
+| ![Star count](https://flat.badgen.net/github/stars/tpope/vim-abolish?label=★&color=black) |[vim-abolish](https://github.com/tpope/vim-abolish)|abolish.vim: easily search for, substitute, and abbreviate multiple variants of a word |
+| ![Star count](https://flat.badgen.net/github/stars/tpope/vim-dadbod?label=★&color=black) |[vim-dadbod](https://github.com/tpope/vim-dadbod) [:page_facing_up:](plug_plugins/vim-dadbod.vim)|dadbod.vim: Modern database interface for Vim |
+| ![Star count](https://flat.badgen.net/github/stars/janko-m/vim-test?label=★&color=black) |[vim-test](https://github.com/janko-m/vim-test)|Run your tests at the speed of thought |
+| ![Star count](https://flat.badgen.net/github/stars/tpope/vim-repeat?label=★&color=black) |[vim-repeat](https://github.com/tpope/vim-repeat)|repeat.vim: enable repeating supported plugin maps with "." |
+| ![Star count](https://flat.badgen.net/github/stars/wellle/targets.vim?label=★&color=black) |[targets.vim](https://github.com/wellle/targets.vim)|Vim plugin that provides additional text objects |
+| ![Star count](https://flat.badgen.net/github/stars/Xuyuanp/nerdtree-git-plugin?label=★&color=black) |[nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)|A plugin of NERDTree showing git status |
+| ![Star count](https://flat.badgen.net/github/stars/mbbill/undotree?label=★&color=black) |[undotree](https://github.com/mbbill/undotree) [:page_facing_up:](plug_plugins/undotree.vim)|The undo history visualizer for VIM |
+| ![Star count](https://flat.badgen.net/github/stars/iamcco/markdown-preview.nvim?label=★&color=black) |[markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)|markdown preview plugin for (neo)vim |
+| ![Star count](https://flat.badgen.net/github/stars/nanotech/jellybeans.vim?label=★&color=black) |[jellybeans.vim](https://github.com/nanotech/jellybeans.vim) [:page_facing_up:](plug_plugins/jellybeans.vim)|A colorful, dark color scheme for Vim. |
+| ![Star count](https://flat.badgen.net/github/stars/vim-airline/vim-airline-themes?label=★&color=black) |[vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)|A collection of themes for vim-airline |
+| ![Star count](https://flat.badgen.net/github/stars/tpope/vim-eunuch?label=★&color=black) |[vim-eunuch](https://github.com/tpope/vim-eunuch)|eunuch.vim: Helpers for UNIX |
+| ![Star count](https://flat.badgen.net/github/stars/AndrewRadev/splitjoin.vim?label=★&color=black) |[splitjoin.vim](https://github.com/AndrewRadev/splitjoin.vim) [:page_facing_up:](plug_plugins/splitjoin.vim)|Switch between single-line and multiline forms of code |
+| ![Star count](https://flat.badgen.net/github/stars/ap/vim-css-color?label=★&color=black) |[vim-css-color](https://github.com/ap/vim-css-color)|Preview colours in source code while editing |
+| ![Star count](https://flat.badgen.net/github/stars/tomtom/tcomment_vim?label=★&color=black) |[tcomment_vim](https://github.com/tomtom/tcomment_vim) [:page_facing_up:](plug_plugins/tcomment_vim.vim)|An extensible & universal comment vim-plugin that also handles embedded filetypes |
+| ![Star count](https://flat.badgen.net/github/stars/kana/vim-textobj-user?label=★&color=black) |[vim-textobj-user](https://github.com/kana/vim-textobj-user)|Vim plugin: Create your own text objects |
+| ![Star count](https://flat.badgen.net/github/stars/mhinz/vim-grepper?label=★&color=black) |[vim-grepper](https://github.com/mhinz/vim-grepper) [:page_facing_up:](plug_plugins/vim-grepper.vim)|:space_invader: Helps you win at grep. |
+| ![Star count](https://flat.badgen.net/github/stars/haya14busa/incsearch.vim?label=★&color=black) |[incsearch.vim](https://github.com/haya14busa/incsearch.vim) [:page_facing_up:](plug_plugins/incsearch.vim)|:flashlight: Improved incremental searching for Vim |
+| ![Star count](https://flat.badgen.net/github/stars/xolox/vim-session?label=★&color=black) |[vim-session](https://github.com/xolox/vim-session) [:page_facing_up:](plug_plugins/vim-session.vim)|Extended session management for Vim (:mksession on steroids) |
+| ![Star count](https://flat.badgen.net/github/stars/sbdchd/neoformat?label=★&color=black) |[neoformat](https://github.com/sbdchd/neoformat) [:page_facing_up:](plug_plugins/neoformat.vim)|:sparkles: A (Neo)vim plugin for formatting code. |
+| ![Star count](https://flat.badgen.net/github/stars/octol/vim-cpp-enhanced-highlight?label=★&color=black) |[vim-cpp-enhanced-highlight](https://github.com/octol/vim-cpp-enhanced-highlight) [:page_facing_up:](plug_plugins/vim-cpp-enhanced-highlight.vim)|Additional Vim syntax highlighting for C++ (including C++11/14/17) |
+| ![Star count](https://flat.badgen.net/github/stars/moll/vim-node?label=★&color=black) |[vim-node](https://github.com/moll/vim-node)|Tools and environment to make Vim superb for developing with Node.js. Like Rails.vim for Node. |
+| ![Star count](https://flat.badgen.net/github/stars/chrisbra/csv.vim?label=★&color=black) |[csv.vim](https://github.com/chrisbra/csv.vim)|A Filetype plugin for csv files |
+| ![Star count](https://flat.badgen.net/github/stars/maksimr/vim-jsbeautify?label=★&color=black) |[vim-jsbeautify](https://github.com/maksimr/vim-jsbeautify) [:page_facing_up:](plug_plugins/vim-jsbeautify.vim)|vim plugin which formated javascript files by js-beautify |
+| ![Star count](https://flat.badgen.net/github/stars/junegunn/vim-peekaboo?label=★&color=black) |[vim-peekaboo](https://github.com/junegunn/vim-peekaboo) [:page_facing_up:](plug_plugins/vim-peekaboo.vim)|:eyes: " / @ / CTRL-R |
+| ![Star count](https://flat.badgen.net/github/stars/MaxMEllon/vim-jsx-pretty?label=★&color=black) |[vim-jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty)|:flashlight: [Vim script] JSX and TSX syntax pretty highlighting for vim. |
+| ![Star count](https://flat.badgen.net/github/stars/takac/vim-hardtime?label=★&color=black) |[vim-hardtime](https://github.com/takac/vim-hardtime) [:page_facing_up:](plug_plugins/vim-hardtime.vim)|Plugin to help you stop repeating the basic movement keys |
+| ![Star count](https://flat.badgen.net/github/stars/machakann/vim-highlightedyank?label=★&color=black) |[vim-highlightedyank](https://github.com/machakann/vim-highlightedyank)|Make the yanked region apparent! |
+| ![Star count](https://flat.badgen.net/github/stars/Valloric/MatchTagAlways?label=★&color=black) |[MatchTagAlways](https://github.com/Valloric/MatchTagAlways) [:page_facing_up:](plug_plugins/MatchTagAlways.vim)|A Vim plugin that always highlights the enclosing html/xml tags |
+| ![Star count](https://flat.badgen.net/github/stars/markonm/traces.vim?label=★&color=black) |[traces.vim](https://github.com/markonm/traces.vim)|Range, pattern and substitute preview for Vim |
+| ![Star count](https://flat.badgen.net/github/stars/tommcdo/vim-exchange?label=★&color=black) |[vim-exchange](https://github.com/tommcdo/vim-exchange)|Easy text exchange operator for Vim |
+| ![Star count](https://flat.badgen.net/github/stars/tiagofumo/vim-nerdtree-syntax-highlight?label=★&color=black) |[vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight) [:page_facing_up:](plug_plugins/vim-nerdtree-syntax-highlight.vim)|Extra syntax and highlight for nerdtree files |
+| ![Star count](https://flat.badgen.net/github/stars/tpope/vim-rhubarb?label=★&color=black) |[vim-rhubarb](https://github.com/tpope/vim-rhubarb)|rhubarb.vim: GitHub extension for fugitive.vim |
+| ![Star count](https://flat.badgen.net/github/stars/jeffkreeftmeijer/vim-numbertoggle?label=★&color=black) |[vim-numbertoggle](https://github.com/jeffkreeftmeijer/vim-numbertoggle)|Toggles between hybrid and absolute line numbers automatically |
+| ![Star count](https://flat.badgen.net/github/stars/AndrewRadev/switch.vim?label=★&color=black) |[switch.vim](https://github.com/AndrewRadev/switch.vim) [:page_facing_up:](plug_plugins/switch.vim)|A simple Vim plugin to switch segments of text with predefined replacements |
+| ![Star count](https://flat.badgen.net/github/stars/wellle/tmux-complete.vim?label=★&color=black) |[tmux-complete.vim](https://github.com/wellle/tmux-complete.vim)|Vim plugin for insert mode completion of words in adjacent tmux panes |
+| ![Star count](https://flat.badgen.net/github/stars/lifepillar/vim-colortemplate?label=★&color=black) |[vim-colortemplate](https://github.com/lifepillar/vim-colortemplate)|The Toolkit for Vim Color Scheme Designers! |
+| ![Star count](https://flat.badgen.net/github/stars/yuki-ycino/fzf-preview.vim?label=★&color=black) |[fzf-preview.vim](https://github.com/yuki-ycino/fzf-preview.vim) [:page_facing_up:](plug_plugins/fzf-preview.vim)|Dark powered fzf plugin |
+| ![Star count](https://flat.badgen.net/github/stars/tyru/open-browser.vim?label=★&color=black) |[open-browser.vim](https://github.com/tyru/open-browser.vim) [:page_facing_up:](plug_plugins/open-browser.vim)|Open URI with your favorite browser from your most favorite editor |
+| ![Star count](https://flat.badgen.net/github/stars/xolox/vim-misc?label=★&color=black) |[vim-misc](https://github.com/xolox/vim-misc)|Miscellaneous auto-load Vim scripts |
+| ![Star count](https://flat.badgen.net/github/stars/tpope/vim-ragtag?label=★&color=black) |[vim-ragtag](https://github.com/tpope/vim-ragtag)|ragtag.vim: ghetto HTML/XML mappings (formerly allml.vim) |
+| ![Star count](https://flat.badgen.net/github/stars/jparise/vim-graphql?label=★&color=black) |[vim-graphql](https://github.com/jparise/vim-graphql)|A Vim plugin that provides GraphQL file detection, syntax highlighting, and indentation. |
+| ![Star count](https://flat.badgen.net/github/stars/tmux-plugins/vim-tmux-focus-events?label=★&color=black) |[vim-tmux-focus-events](https://github.com/tmux-plugins/vim-tmux-focus-events)|Make terminal vim and tmux work better together. |
+| ![Star count](https://flat.badgen.net/github/stars/tmux-plugins/vim-tmux?label=★&color=black) |[vim-tmux](https://github.com/tmux-plugins/vim-tmux) [:page_facing_up:](plug_plugins/vim-tmux.vim)|vim plugin for tmux.conf |
+| ![Star count](https://flat.badgen.net/github/stars/osyo-manga/vim-anzu?label=★&color=black) |[vim-anzu](https://github.com/osyo-manga/vim-anzu) [:page_facing_up:](plug_plugins/vim-anzu.vim)|Vim search status. |
+| ![Star count](https://flat.badgen.net/github/stars/lifepillar/pgsql.vim?label=★&color=black) |[pgsql.vim](https://github.com/lifepillar/pgsql.vim) [:page_facing_up:](plug_plugins/pgsql.vim)|The best PostgreSQL plugin for Vim! |
+| ![Star count](https://flat.badgen.net/github/stars/kristijanhusak/vim-dadbod-ui?label=★&color=black) |[vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui) [:page_facing_up:](plug_plugins/vim-dadbod-ui.vim)|Simple UI for https://github.com/tpope/vim-dadbod |
+| ![Star count](https://flat.badgen.net/github/stars/nelstrom/vim-visual-star-search?label=★&color=black) |[vim-visual-star-search](https://github.com/nelstrom/vim-visual-star-search)|Start a * or # search from a visual block |
+| ![Star count](https://flat.badgen.net/github/stars/christoomey/vim-sort-motion?label=★&color=black) |[vim-sort-motion](https://github.com/christoomey/vim-sort-motion)|Vim mapping for sorting a range of text |
+| ![Star count](https://flat.badgen.net/github/stars/machakann/vim-swap?label=★&color=black) |[vim-swap](https://github.com/machakann/vim-swap) [:page_facing_up:](plug_plugins/vim-swap.vim)|Reorder delimited items. |
+| ![Star count](https://flat.badgen.net/github/stars/rhysd/github-complete.vim?label=★&color=black) |[github-complete.vim](https://github.com/rhysd/github-complete.vim)|Vim input completion for GitHub |
+| ![Star count](https://flat.badgen.net/github/stars/antoinemadec/coc-fzf?label=★&color=black) |[coc-fzf](https://github.com/antoinemadec/coc-fzf) [:page_facing_up:](plug_plugins/coc-fzf.vim)|fzf :heart: coc.nvim |
+| ![Star count](https://flat.badgen.net/github/stars/yssl/QFEnter?label=★&color=black) |[QFEnter](https://github.com/yssl/QFEnter) [:page_facing_up:](plug_plugins/QFEnter.vim)|Open a Quickfix item in a window you choose. (Vim plugin) |
+| ![Star count](https://flat.badgen.net/github/stars/Valloric/ListToggle?label=★&color=black) |[ListToggle](https://github.com/Valloric/ListToggle) [:page_facing_up:](plug_plugins/ListToggle.vim)|A vim plugin for toggling the display of the quickfix list and the location-list. |
+| ![Star count](https://flat.badgen.net/github/stars/AndrewRadev/tagalong.vim?label=★&color=black) |[tagalong.vim](https://github.com/AndrewRadev/tagalong.vim)|Change an HTML(ish) opening tag and take the closing one along as well |
+| ![Star count](https://flat.badgen.net/github/stars/haya14busa/incsearch-fuzzy.vim?label=★&color=black) |[incsearch-fuzzy.vim](https://github.com/haya14busa/incsearch-fuzzy.vim) [:page_facing_up:](plug_plugins/incsearch-fuzzy.vim)| |
+| ![Star count](https://flat.badgen.net/github/stars/jszakmeister/vim-togglecursor?label=★&color=black) |[vim-togglecursor](https://github.com/jszakmeister/vim-togglecursor) [:page_facing_up:](plug_plugins/vim-togglecursor.vim)|Toggle the cursor shape in the terminal for Vim. |
+| ![Star count](https://flat.badgen.net/github/stars/itspriddle/vim-marked?label=★&color=black) |[vim-marked](https://github.com/itspriddle/vim-marked)|Open the current Markdown buffer in Marked.app |
+| ![Star count](https://flat.badgen.net/github/stars/sk1418/Join?label=★&color=black) |[Join](https://github.com/sk1418/Join)|a better (hopefully) :Join command in vim |
+| ![Star count](https://flat.badgen.net/github/stars/haya14busa/incsearch-easymotion.vim?label=★&color=black) |[incsearch-easymotion.vim](https://github.com/haya14busa/incsearch-easymotion.vim) [:page_facing_up:](plug_plugins/incsearch-easymotion.vim)| |
+| ![Star count](https://flat.badgen.net/github/stars/ludovicchabant/vim-lawrencium?label=★&color=black) |[vim-lawrencium](https://github.com/ludovicchabant/vim-lawrencium)|A Mercurial wrapper for Vim. |
+| ![Star count](https://flat.badgen.net/github/stars/jonsmithers/vim-html-template-literals?label=★&color=black) |[vim-html-template-literals](https://github.com/jonsmithers/vim-html-template-literals)|Syntax highlighting for html template literals in javascript (as in lit-html and polymer 3) |
+| ![Star count](https://flat.badgen.net/github/stars/vim-scripts/scratch.vim?label=★&color=black) |[scratch.vim](https://github.com/vim-scripts/scratch.vim)|Plugin to create and use a scratch Vim buffer |
+| ![Star count](https://flat.badgen.net/github/stars/papanikge/vim-voogle?label=★&color=black) |[vim-voogle](https://github.com/papanikge/vim-voogle) [:page_facing_up:](plug_plugins/vim-voogle.vim)|google for the word under the cursor to a browser because 2013 |
+| ![Star count](https://flat.badgen.net/github/stars/justinj/vim-textobj-reactprop?label=★&color=black) |[vim-textobj-reactprop](https://github.com/justinj/vim-textobj-reactprop)|A vim text object for a React prop |
+| ![Star count](https://flat.badgen.net/github/stars/vim-scripts/HelpClose?label=★&color=black) |[HelpClose](https://github.com/vim-scripts/HelpClose)|Close all help windows |
+| ![Star count](https://flat.badgen.net/github/stars/mutewinter/vim-autoreadwatch?label=★&color=black) |[vim-autoreadwatch](https://github.com/mutewinter/vim-autoreadwatch)|A forked script for vim auto reloading of buffers when changed on disk. |
 
-_That's 90 plugins, holy crap._
+_That's 87 plugins, holy crap._
 
-_Generated by `rake update_readme` on 2017/09/04._
+_Generated by `rake update_readme` on 2020/08/24._
+
