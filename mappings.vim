@@ -24,6 +24,9 @@ nnoremap <leader>sc <nop>
 nnoremap ; :
 vnoremap ; :
 
+" Quit with one key
+nnoremap <C-x> :qa<cr>
+
 " Yank entire buffer with gy
 nnoremap gy :0,$ y<cr>
 
@@ -51,9 +54,6 @@ nnoremap U <C-r>
 " column, so swap them
 nnoremap ' `
 nnoremap ` '
-
-" Don't move on *
-nnoremap <silent> * :let stay_star_view = winsaveview()<cr>*:call winrestview(stay_star_view)<cr>
 
 " switch from Terminal mode back to Normal mode by pressing they <Esc> key
 if has('nvim')
@@ -138,6 +138,8 @@ imap <End>  <C-o><End>
 " ---------------
 " Window Movement
 " ---------------
+
+" Move windows directionally
 nnoremap <silent> <M-h> :wincmd h<CR>
 nnoremap <silent> <M-j> :wincmd j<CR>
 nnoremap <silent> <M-k> :wincmd k<CR>
@@ -166,12 +168,6 @@ nnoremap <silent> gx :wincmd x<CR>
 " Make line completion easier.
 inoremap <C-l> <C-x><C-l>
 
-" Scroll larger amounts with gj / gk
-nnoremap gj 15gjzz
-nnoremap gk 15gkzz
-vnoremap gj 15gjzz
-vnoremap gk 15gkzz
-
 " ---------------
 " Insert Mode Mappings
 " ---------------
@@ -189,20 +185,11 @@ inoremap jK <Esc>
 " Clear search
 noremap <silent><leader>/ :nohls<CR>
 
-" Highlight search word under cursor without jumping to next
-nnoremap <leader>h *<C-O>
-
 " Toggle spelling mode
 nnoremap <silent> <leader>sp :set spell!<CR>
 
 " Quickly switch to last buffer
 nnoremap <leader>, :e#<CR>
-
-" Underline the current line with '-'
-nnoremap <silent> <leader>ul :t.\|s/./-/\|:nohls<cr>
-
-" Underline the current line with '='
-nnoremap <silent> <leader>uul :t.\|s/./=/\|:nohls<cr>
 
 " Surround the commented line with lines.
 "
@@ -230,8 +217,6 @@ nnoremap <leader>pc :PlugClean<CR>
 " Typo Fixes
 " ---------------
 
-noremap <F1> <Esc>
-inoremap <F1> <Esc>
 cnoremap w' w<CR>
 
 " Disable the ever-annoying Ex mode shortcut key. Type visual my ass. Instead,
@@ -246,7 +231,7 @@ vnoremap K k
 nnoremap <silent> <F5> :set paste!<CR>
 
 " Paste and select pasted
-nnoremap <expr> gpp '`[' . strpart(getregtype(), 0, 1) . '`]'
+nnoremap <expr> gp '`[' . strpart(getregtype(), 0, 1) . '`]'
 
 " Insert date
 iabbrev ddate <C-R>=strftime("%Y-%m-%d")<CR>

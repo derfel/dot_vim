@@ -107,6 +107,7 @@ This example installs [`vim-move`](https://github.com/matze/vim-move).
 | ![Star count](https://flat.badgen.net/github/stars/janko-m/vim-test?label=★&color=black) |[vim-test](https://github.com/janko-m/vim-test)|Run your tests at the speed of thought |
 | ![Star count](https://flat.badgen.net/github/stars/tpope/vim-repeat?label=★&color=black) |[vim-repeat](https://github.com/tpope/vim-repeat)|repeat.vim: enable repeating supported plugin maps with "." |
 | ![Star count](https://flat.badgen.net/github/stars/wellle/targets.vim?label=★&color=black) |[targets.vim](https://github.com/wellle/targets.vim)|Vim plugin that provides additional text objects |
+| ![Star count](https://flat.badgen.net/github/stars/tpope/vim-repeat?label=★&color=black) |[vim-repeat](https://github.com/tpope/vim-repeat)|repeat.vim: enable repeating supported plugin maps with "." |
 | ![Star count](https://flat.badgen.net/github/stars/Xuyuanp/nerdtree-git-plugin?label=★&color=black) |[nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)|A plugin of NERDTree showing git status |
 | ![Star count](https://flat.badgen.net/github/stars/mbbill/undotree?label=★&color=black) |[undotree](https://github.com/mbbill/undotree) [:page_facing_up:](plug_plugins/undotree.vim)|The undo history visualizer for VIM |
 | ![Star count](https://flat.badgen.net/github/stars/iamcco/markdown-preview.nvim?label=★&color=black) |[markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)|markdown preview plugin for (neo)vim |
@@ -150,6 +151,7 @@ This example installs [`vim-move`](https://github.com/matze/vim-move).
 | ![Star count](https://flat.badgen.net/github/stars/kristijanhusak/vim-dadbod-ui?label=★&color=black) |[vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui) [:page_facing_up:](plug_plugins/vim-dadbod-ui.vim)|Simple UI for https://github.com/tpope/vim-dadbod |
 | ![Star count](https://flat.badgen.net/github/stars/nelstrom/vim-visual-star-search?label=★&color=black) |[vim-visual-star-search](https://github.com/nelstrom/vim-visual-star-search)|Start a * or # search from a visual block |
 | ![Star count](https://flat.badgen.net/github/stars/christoomey/vim-sort-motion?label=★&color=black) |[vim-sort-motion](https://github.com/christoomey/vim-sort-motion)|Vim mapping for sorting a range of text |
+| ![Star count](https://flat.badgen.net/github/stars/antoinemadec/coc-fzf?label=★&color=black) |[coc-fzf](https://github.com/antoinemadec/coc-fzf) [:page_facing_up:](plug_plugins/coc-fzf.vim)|fzf :heart: coc.nvim |
 | ![Star count](https://flat.badgen.net/github/stars/machakann/vim-swap?label=★&color=black) |[vim-swap](https://github.com/machakann/vim-swap) [:page_facing_up:](plug_plugins/vim-swap.vim)|Reorder delimited items. |
 | ![Star count](https://flat.badgen.net/github/stars/rhysd/github-complete.vim?label=★&color=black) |[github-complete.vim](https://github.com/rhysd/github-complete.vim)|Vim input completion for GitHub |
 | ![Star count](https://flat.badgen.net/github/stars/antoinemadec/coc-fzf?label=★&color=black) |[coc-fzf](https://github.com/antoinemadec/coc-fzf) [:page_facing_up:](plug_plugins/coc-fzf.vim)|fzf :heart: coc.nvim |

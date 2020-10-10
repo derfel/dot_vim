@@ -3,7 +3,7 @@ if exists('g:plug_installing_plugins')
   finish
 endif
 
-nnoremap <leader>ag :Grepper -tool ag<cr>
+nnoremap <leader>rg :Grepper -tool rg<cr>
 
 let g:grepper = {}
 let g:grepper.ag={ 'grepprg': 'ag --vimgrep --smart-case' }
