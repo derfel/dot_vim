@@ -35,5 +35,5 @@ hi! CocHighlightText guibg=#333333 gui=underline
 
 hi! CocInfoSign guifg=LightBlue
 
-hi! Pmenu ctermfg=Black ctermbg=Yellow guifg=D6D6D6 guibg=303030
+hi! Pmenu ctermfg=Black ctermbg=Yellow guifg=fdf6e3 guibg=839496
 hi! PmenuSel ctermfg=Yellow ctermbg=Black guifg=2B2B2B guibg=D6D6D6
