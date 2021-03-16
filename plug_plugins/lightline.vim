@@ -30,19 +30,6 @@ endfunction
 
 let g:lightline = {
       \ 'colorscheme': 'OldHope',
-      \ 'mode_map': {
-        \ 'n' : 'N',
-        \ 'i' : 'I',
-        \ 'R' : 'R',
-        \ 'v' : 'V',
-        \ 'V' : 'VL',
-        \ "\<C-v>": 'VB',
-        \ 'c' : 'C',
-        \ 's' : 'S',
-        \ 'S' : 'SL',
-        \ "\<C-s>": 'SB',
-        \ 't': 'T',
-        \ },
       \ 'separator': { 'left': '', 'right': '' },
       \ 'subseparator': { 'left': '', 'right': '' },
       \ 'component': {
@@ -53,6 +40,7 @@ let g:lightline = {
       \   'cocstatus': 'CocStatusDiagnostic',
       \   'scrollbar': 'ScrollStatus',
       \   'modified': 'LightlineModified',
+      \   'gitbranch': 'FugitiveHead',
       \ },
       \ 'component_type': {
       \   'modified': 'warning',
@@ -62,11 +50,11 @@ let g:lightline = {
 
 let g:lightline.active = {
       \ 'left': [ [ 'mode', 'paste' ],
-      \           [ 'readonly', 'filename', 'modified' ],
+      \           [ 'gitbranch', 'filename', 'readonly', 'modified' ],
       \           ],
       \ 'right': [ ['cocstatus'],
-      \            [ 'scrollbar' ],
-      \            [ 'filetype' ] ] }
+      \            [ 'lineinfo', 'percent', 'scrollbar' ],
+      \            [ 'binary', 'fileformat', 'fileencoding', 'filetype' ] ] }
 
 let g:lightline.inactive = {
       \ 'left': [ [ 'filename' ], ['modified'] ],
