@@ -24,6 +24,9 @@ nnoremap <leader>sc <nop>
 nnoremap ; :
 vnoremap ; :
 
+" Quit with one key
+nnoremap <M-x> :qa<cr>
+
 " Yank entire buffer with gy
 nnoremap gy :0,$ y<cr>
 
@@ -141,17 +144,6 @@ nnoremap <silent> <M-h> :wincmd h<CR>
 nnoremap <silent> <M-j> :wincmd j<CR>
 nnoremap <silent> <M-k> :wincmd k<CR>
 nnoremap <silent> <M-l> :wincmd l<CR>
-
-"   4 Window Splits
-"
-"   -----------------
-"   g1 | g2 | g3 | g4
-"   -----------------
-nnoremap <silent> g1 :WriteBufferIfNecessary<CR>:wincmd t<CR>
-nnoremap <silent> g2 :WriteBufferIfNecessary<CR>:wincmd t<bar>:wincmd l<CR>
-nnoremap <silent> g3 :WriteBufferIfNecessary<CR>:wincmd t<bar>:wincmd l<bar>
-      \:wincmd l<CR>
-nnoremap <silent> g4 :WriteBufferIfNecessary<CR>:wincmd b<CR>
 
 " Equal Size Windows
 nnoremap <silent> g= :wincmd =<CR>

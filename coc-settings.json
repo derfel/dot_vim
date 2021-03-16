@@ -9,6 +9,7 @@
   "suggest.labelMaxLength": 70,
   "diagnostic.errorSign": "✖",
   "diagnostic.infoSign": "ⓘ",
+  "prettier.onlyUseLocalVersion": true,
   "coc.preferences.formatOnSaveFiletypes": [
   ],
   "cSpell.userWords": [
@@ -17,19 +18,13 @@
     "cocstatus",
     "codegen",
     "concat",
+    "graphql",
     "jsonb",
     "mutewinter",
     "pbcopy",
     "smallint",
     "unoptimized",
     "uuid"
-  ],
-  "eslint.filetypes": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "graphql"
   ],
   "coc.preferences.rootPatterns": [
     ".git",
@@ -73,15 +68,14 @@
     "yml",
     "sql"
   ],
-  "tailwindCSS.headwind.classRegex": {
-    "reason": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
-    "elm": "\\bclass\\s*\\\"([_a-zA-Z0-9\\s\\-\\:\\/]+)\\\"",
-    "html": "\\bclass\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\']",
-    "css": "\\B@apply\\s+([_a-zA-Z0-9\\s\\-\\:\\/]+);",
-    "javascript": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
-    "javascriptreact": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
-    "typescript": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
-    "typescriptreact": "(?:\\b(?:className|tw)\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)"
-  },
+  "tailwindCSS.headwind.runOnSave": false,
+  "tailwindCSS.colorDecorators": "on",
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)",
+    "tw=\"([^\"]*)",
+    "tw={\"([^\"}]*)",
+    "tw\\.\\w+`([^`]*)",
+    "tw\\(.*?\\)`([^`]*)"
+  ],
   "snippets.userSnippetsDirectory": "~/.config/nvim/MyUltiSnips"
 }

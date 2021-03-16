@@ -47,4 +47,10 @@ if has('autocmd')
     " from https://bitbucket.org/sjl/dotfiles/src/tip/vim/vimrc
     au VimResized * :wincmd =
   augroup END
+
+  augroup numbertoggle
+    autocmd!
+    autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+    autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+  augroup END
 endif
