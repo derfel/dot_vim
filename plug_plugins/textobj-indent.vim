@@ -1,4 +1,4 @@
 if exists('g:plug_installing_plugins')
-  Plug 'tmux-plugins/vim-tmux-focus-events'
+  Plug 'kana/vim-textobj-indent'
   finish
 endif
