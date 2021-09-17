@@ -9,6 +9,7 @@
   "suggest.labelMaxLength": 70,
   "diagnostic.errorSign": "✖",
   "diagnostic.infoSign": "ⓘ",
+  "diagnostic.checkCurrentLine": true,
   "prettier.onlyUseLocalVersion": true,
   "eslint.probe": [
     "javascript",
