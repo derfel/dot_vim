@@ -9,7 +9,7 @@ let g:coc_global_extensions = [
       \'coc-pairs', 'coc-snippets', 'coc-json', 'coc-tsserver',
       \'coc-highlight', 'coc-css', 'coc-git', 'coc-eslint',
       \'coc-vimlsp', 'coc-html', 'coc-db', 'coc-yaml', 'coc-prettier',
-      \'coc-fzf-preview', 'coc-python', 'coc-svelte'
+      \'coc-fzf-preview', 'coc-pyright', 'coc-svelte'
       \]
 
 " I have to restart Coc sometimes because outdated error stick around.
