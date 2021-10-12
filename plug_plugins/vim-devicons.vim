@@ -4,5 +4,5 @@ if exists('g:plug_installing_plugins')
   finish
 endif
 
-let g:WebDevIconsNerdTreeAfterGlyphPadding = ''
-let g:WebDevIconsNerdTreeGitPlugForceVAlign = ''
+let g:airline_powerline_fonts = 1
+
