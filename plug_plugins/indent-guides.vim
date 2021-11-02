@@ -5,7 +5,8 @@ endif
 
 lua << EOF
   require('indent_guides').setup({
-    indent_guide_size = 2,
+    indent_guide_size = 4,
+    indent_tab_guides = true,
     exclude_filetypes = {'help','startify','NvimTree'},
     even_colors = { fg ='#cccccc', bg='#1d1d1d' },
     odd_colors = {fg='#cccccc', bg='#272727' }
