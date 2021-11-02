@@ -7,6 +7,15 @@ lua << EOF
 require'nvim-tree'.setup {
 	auto_close = true,
 	open_on_setup = true,
+	diagnostics = {
+		enable = true,
+		icons = {
+			hint = "",
+			info = "",
+			warning = "",
+			error = "",
+		}
+	},
 	view = {
 		width = 50,
 	}
@@ -17,4 +26,3 @@ nnoremap <silent><leader>nn :NvimTreeToggle<CR>
 nnoremap <silent><leader>nf :NvimTreeFindFile<CR>
 
 let g:nvim_tree_indent_markers = 1
-

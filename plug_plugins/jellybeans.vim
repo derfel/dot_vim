@@ -30,9 +30,6 @@ hi! CocErrorSign guifg=#FF5656
 " Make cssAttrs (center, block, etc.) the same color as units
 hi! link cssAttr Constant
 
-" Without this, coc-highlight's CursorHold highlight doesn't work
-hi! CocHighlightText guibg=#333333 gui=underline
-
 hi! CocInfoSign guifg=LightBlue
 
 hi! Pmenu ctermfg=Black ctermbg=Yellow guifg=fdf6e3 guibg=839496

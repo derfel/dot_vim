@@ -7,9 +7,9 @@ endif
 " coc-prettier locked to 1.1.20 due to it not using plugins on .21
 let g:coc_global_extensions = [
       \'coc-pairs', 'coc-snippets', 'coc-json', 'coc-tsserver',
-      \'coc-highlight', 'coc-css', 'coc-git', 'coc-eslint',
+      \'coc-css', 'coc-eslint',
       \'coc-vimlsp', 'coc-html', 'coc-db', 'coc-yaml', 'coc-prettier',
-      \'coc-fzf-preview', 'coc-pyright', 'coc-svelte'
+      \'coc-pyright', 'coc-svelte'
       \]
 
 " I have to restart Coc sometimes because outdated error stick around.
@@ -31,9 +31,6 @@ endfunction
 " that arrow keys navigate completions (but I have a fancy keyboard).
 inoremap <expr> <tab> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-
-" Highlight symbol under cursor on CursorHold
-autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Remap for rename current word
 nmap <leader>rn <Plug>(coc-rename)
@@ -108,11 +105,3 @@ let g:coc_snippet_prev = '<c-k>'
 
 " Use <C-j> for both expand and jump (make expand higher priority.)
 imap <C-j> <Plug>(coc-snippets-expand-jump)
-
-" -------
-" coc-git
-" -------
-
-" navigate chunks of current buffer
-nmap <leader>gn <Plug>(coc-git-nextchunk)
-nmap <leader>gN <Plug>(coc-git-prevchunk)

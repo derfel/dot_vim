@@ -46,6 +46,9 @@ if has('autocmd')
     " Resize splits when the window is resized
     " from https://bitbucket.org/sjl/dotfiles/src/tip/vim/vimrc
     au VimResized * :wincmd =
+
+    " via https://jdhao.github.io/2020/05/22/highlight_yank_region_nvim
+    au TextYankPost * silent! lua vim.highlight.on_yank{higroup="IncSearch", timeout=400}
   augroup END
 
   augroup numbertoggle
