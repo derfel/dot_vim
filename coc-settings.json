@@ -42,6 +42,8 @@
     "lsquo",
     "minmax",
     "mutewinter",
+    "nvim",
+    "nvimrc",
     "pbcopy",
     "rdquo",
     "rsquo",
@@ -50,6 +52,7 @@
     "svgs",
     "unoptimized",
     "uuid",
+    "vimrc",
     "webhook",
     "webhooks"
   ],
