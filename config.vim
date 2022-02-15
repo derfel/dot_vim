@@ -6,8 +6,7 @@
 " Color
 " ---------------
 set background=dark
-"colorscheme derfel
-colorscheme solarized8_dark_high
+
 " Force 256 color mode if available
 if $TERM =~ '-256color'
   set t_Co=256
