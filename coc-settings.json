@@ -25,15 +25,21 @@
     "graphql"
   ],
   "coc.preferences.formatOnSaveFiletypes": [
+    "graphql",
+    "typescript",
+    "typescriptreact"
   ],
   "cSpell.userWords": [
+    "Neovim",
     "PDFs",
     "Postgres",
+    "autosave",
     "bookmarklet",
     "browserslist",
     "cocstatus",
     "codegen",
     "concat",
+    "derfel",
     "deserialization",
     "graphql",
     "hotspot",
@@ -41,6 +47,7 @@
     "ldquo",
     "lsquo",
     "minmax",
+    "mkdir",
     "mutewinter",
     "nvim",
     "nvimrc",
@@ -55,12 +62,6 @@
     "vimrc",
     "webhook",
     "webhooks"
-  ],
-  "coc.preferences.rootPatterns": [
-    ".git",
-    ".hg",
-    ".projections.json",
-    "tsconfig.json"
   ],
   "cSpell.enabledLanguageIds": [
     "vim",
@@ -98,8 +99,6 @@
     "yml",
     "sql"
   ],
-  "tailwindCSS.headwind.runOnSave": false,
-  "tailwindCSS.colorDecorators": "on",
   "tailwindCSS.experimental.classRegex": [
     "tw`([^`]*)",
     "tw=\"([^\"]*)",
@@ -123,5 +122,7 @@
         "graphql"
       ]
     }
-  }
+  },
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": ["--ignore", "W191", "--max-line-length", "121"]
 }
