@@ -1,6 +1,6 @@
 if exists('g:plug_installing_plugins')
   Plug 'glepnir/indent-guides.nvim'
-    finish
+  finish
 endif
 
 lua << EOF
@@ -8,7 +8,7 @@ lua << EOF
     indent_guide_size = 4,
     indent_tab_guides = true,
     exclude_filetypes = {'help','startify','NvimTree'},
-    even_colors = { fg ='#cccccc', bg='#1d1d1d' },
-    odd_colors = {fg='#cccccc', bg='#272727' }
+    even_colors = { fg ='#cccccc', bg='#141414' },
+    odd_colors = {fg='#cccccc', bg='#1d1d1d' }
   })
 EOF

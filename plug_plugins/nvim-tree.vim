@@ -5,8 +5,11 @@ endif
 
 lua << EOF
 require'nvim-tree'.setup {
-	auto_close = true,
 	open_on_setup = true,
+	hijack_directories = {
+		enable = true,
+		auto_open = true,
+	},
 	diagnostics = {
 		enable = true,
 		icons = {
