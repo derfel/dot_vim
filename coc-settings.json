@@ -143,5 +143,12 @@
     }
   },
   "python.linting.flake8Enabled": true,
-  "python.linting.flake8Args": ["--ignore", "W191", "--max-line-length", "121"]
+  "python.linting.flake8Path": "/usr/bin/flake8",
+  "python.linting.flake8Args": [
+    "--ignore",
+    "W191,E128,W261,W391",
+    "--max-line-length",
+    "130"
+  ],
+  "svelte.enable-ts-plugin": true
 }
