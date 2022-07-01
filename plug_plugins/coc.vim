@@ -7,10 +7,9 @@ endif
 " coc-prettier locked to 1.1.20 due to it not using plugins on .21
 let g:coc_global_extensions = [
       \'coc-pairs', 'coc-snippets', 'coc-json', 'coc-tsserver',
-      \'coc-css', 'coc-eslint',
+      \'coc-css', 'coc-eslint', 'coc-emoji',
       \'coc-vimlsp', 'coc-html', 'coc-db', 'coc-yaml', 'coc-prettier',
-      \'coc-pyright', 'coc-svelte'
-      \]
+      \'coc-pyright', 'coc-svelte', 'coc-prisma']
 
 " I have to restart Coc sometimes because outdated error stick around.
 nnoremap <leader>cr :CocRestart<cr>
