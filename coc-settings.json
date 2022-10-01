@@ -35,7 +35,6 @@
   ],
   "coc.preferences.formatOnSaveFiletypes": [
     "graphql",
-    "javascript",
     "python",
     "typescript",
     "typescriptreact",
@@ -158,7 +157,7 @@
   "python.linting.flake8Path": "/usr/bin/flake8",
   "python.linting.flake8Args": [
     "--ignore",
-    "W191,E128,W261,W391",
+    "W191,E128,W261,W391,E261",
     "--max-line-length",
     "130"
   ],
