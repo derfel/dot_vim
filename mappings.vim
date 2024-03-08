@@ -30,9 +30,6 @@ nnoremap <M-x> :qa<cr>
 " Yank entire buffer with gy
 nnoremap gy :0,$ y<cr>
 
-" Select entire buffer
-nnoremap vy ggVG
-
 " Make Y behave like other capital commands.
 " Hat-tip http://vimbits.com/bits/11
 nnoremap Y y$
@@ -145,8 +142,6 @@ nnoremap <silent> <M-j> :wincmd j<CR>
 nnoremap <silent> <M-k> :wincmd k<CR>
 nnoremap <silent> <M-l> :wincmd l<CR>
 
-" Equal Size Windows
-nnoremap <silent> g= :wincmd =<CR>
 " Swap Windows
 nnoremap <silent> gx :wincmd x<CR>
 
@@ -163,9 +158,6 @@ inoremap <C-l> <C-x><C-l>
 
 " Clear search
 noremap <silent><leader>/ :nohls<CR>
-
-" Toggle spelling mode
-nnoremap <silent> <leader>sp :set spell!<CR>
 
 " Quickly switch to last buffer
 nnoremap <leader>, :e#<CR>
@@ -227,3 +219,14 @@ if has('mac') || has('gui_macvim') || has('gui_mac')
   " directory name (/something/src)
   nnoremap <silent> <leader>yd :let @*=expand("%:p:h")<CR>
 endif
+
+" ------------
+" Tab Movement
+" ------------
+nnoremap <silent> <M-1> :tabnext 1<CR>
+nnoremap <silent> <M-2> :tabnext 2<CR>
+nnoremap <silent> <M-3> :tabnext 3<CR>
+nnoremap <silent> <M-4> :tabnext 4<CR>
+nnoremap <silent> <M-5> :tabnext 5<CR>
+
+nnoremap <silent> <M-.> :tabprevious<CR>

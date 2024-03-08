@@ -1,5 +1,17 @@
 extends typescript
 
+snippet efc "function declaration component" b
+interface $1Props {};
+
+export default function ${1:name}({}: $1Props) {
+  return (
+    <div>
+      ${2}
+    </div>
+  );
+}
+endsnippet
+
 snippet fc "functional component" b
 import React from 'react';
 import 'twin.macro';
@@ -17,6 +29,26 @@ const ${1:name} = ({}: $1Props) => {
 export default $1;
 endsnippet
 
-snippet ct "twind className" bi
+snippet ta "twin.macro attr" bi
+tw="$0"
+endsnippet
+
+snippet cw "typewind attr" bi
+className={tw.$0}
+endsnippet
+
+snippet ct "twind className tw``" bi
 className={tw\`$0\`}
+endsnippet
+
+snippet cc "twind className css()" bi
+className={tw(css({ $0 }))}
+endsnippet
+
+snippet cf "twind className tw()" bi
+className={tw($0)}
+endsnippet
+
+snippet cs "twind className S." bi
+className={S.$0}
 endsnippet

@@ -7,12 +7,15 @@ endif
 " coc-prettier locked to 1.1.20 due to it not using plugins on .21
 let g:coc_global_extensions = [
       \'coc-pairs', 'coc-snippets', 'coc-json', 'coc-tsserver',
-      \'coc-css', 'coc-eslint', 'coc-emoji',
+      \'coc-css', 'coc-eslint', 'coc-emoji', 'coc-react-refactor',
       \'coc-vimlsp', 'coc-html', 'coc-db', 'coc-yaml', 'coc-prettier',
       \'coc-pyright', 'coc-svelte', 'coc-prisma']
 
-" I have to restart Coc sometimes because outdated error stick around.
-nnoremap <leader>cr :CocRestart<cr>
+" Manual restarts are often needed when large project or tsconfig changes
+" happen
+nnoremap <leader>crr :CocRestart<cr>
+" Sometimes restart is needed to allow spelling to be added to local folder.
+nnoremap <leader>crs :CocSpellRestart<cr>
 
 " Show documentation in preview window
 nnoremap <silent>gD :call <SID>show_documentation()<CR>
@@ -27,13 +30,7 @@ function! s:show_documentation()
   endif
 endfunction
 
-" " Use <cr> or <tab> to confirm completion, `<C-g>u` means break undo chain at
-" " current position. Coc only does snippet and additional edit on confirm. Note
-" " that arrow keys navigate completions (but I have a fancy keyboard).
-inoremap <expr> <tab> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
-" inoremap <expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
-inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+inoremap <expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<CR>"
 
 " Remap for rename current word
 nmap <leader>rn <Plug>(coc-rename)
@@ -83,6 +80,8 @@ omap af <Plug>(coc-funcobj-a)
 nmap <silent> <C-s> <Plug>(coc-range-select)
 xmap <silent> <C-s> <Plug>(coc-range-select)
 
+" Manual trigger completion.
+inoremap <silent><expr> <S-enter> coc#refresh()
 
 " Scroll floating window, taken from Coc help docs
 if has('nvim-0.4.0') || has('patch-8.2.0750')
@@ -108,3 +107,7 @@ let g:coc_snippet_prev = '<c-k>'
 
 " Use <C-j> for both expand and jump (make expand higher priority.)
 imap <C-j> <Plug>(coc-snippets-expand-jump)
+
+" A shorthand command to quickly restart the coc spell checker so it can pick
+" up the presence of the workspace.
+command! -nargs=0 CocSpellRestart :call CocAction('reloadExtension', 'coc-spell-checker')
