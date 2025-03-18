@@ -71,6 +71,8 @@ set pastetoggle=<F4>
 map <F5> :e<CR>
 " F6: TagBar -- Vim Class Outline viewer
 nmap <F6> :TagbarToggle<CR>
+" F2: NvimTree: File Explorer
+nmap <F2> :NvimTreeToggle<CR>
 " F7: converte da formato DOS a unix
 map <F7> :set fileformat=unix<CR>
 " F8: converte da formato unix a DOS
@@ -79,8 +81,6 @@ map <F8> :set fileformat=dos<CR>
 noremap <F9> :set list!<CR>
 " F3: show undotree
 nnoremap <F3> :UndotreeToggle<cr>
-" F2: show undotree
-nnoremap <F2> :SignifyToggle<cr>
 
 :nnoremap <CR> :nohlsearch<cr>
 " clear the search buffer when hitting return
