@@ -30,8 +30,8 @@
   "eslint.validate": [
     "graphql"
   ],
-  "[typescript][typescriptreact][graphql][javascript][python][prisma]": {
-    "coc.preferences.formatOnSave": true,
+  "[graphql][prisma]": {
+    "coc.preferences.formatOnSave": true
   },
   "workspace.rootPatterns": [
     "tsconfig.json",
