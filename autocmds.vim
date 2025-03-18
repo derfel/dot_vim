@@ -1,8 +1,7 @@
 " ----------------------------------------
 " Auto Commands
 " ----------------------------------------
-
-if has('autocmd')
+if has('autocmd') && !exists('g:vscode')
   augroup MyAutoCommands
     " Clear the auto command group so we don't define it multiple times
     " Idea from http://learnvimscriptthehardway.stevelosh.com/chapters/14.html
@@ -52,6 +51,9 @@ if has('autocmd')
 
     " Highlight .mdx files as markdown
     autocmd BufRead,BufNewFile *.mdx set filetype=markdown
+
+    " Set conceallevel to 2 for json files
+    " autocmd FileType json setlocal conceallevel=2
   augroup END
 
   augroup numbertoggle

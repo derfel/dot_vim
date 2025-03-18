@@ -1,7 +1,15 @@
+if exists('g:vscode')
+  finish
+endif
+
 if exists('g:plug_installing_plugins')
   Plug 'vuki656/package-info.nvim'
   Plug 'MunifTanjim/nui.nvim'
   finish
 endif
 
-lua require('package-info').setup()
+lua << EOF
+require('package-info').setup({
+  hide_up_to_date = true
+})
+EOF

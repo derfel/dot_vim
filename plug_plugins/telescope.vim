@@ -1,3 +1,7 @@
+if exists('g:vscode')
+  finish
+endif
+
 if exists('g:plug_installing_plugins')
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
@@ -25,6 +29,8 @@ lua << EOF
 EOF
 
 nnoremap <s-enter> <cmd>Telescope find_files<cr>
+" For terminal without shift enter
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>m <cmd>Telescope oldfiles<cr>
 nnoremap <leader>fr <cmd>Telescope live_grep<cr>
 
