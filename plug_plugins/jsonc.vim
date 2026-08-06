@@ -3,6 +3,6 @@ if exists('g:vscode')
 endif
 
 if exists('g:plug_installing_plugins')
-  Plug 'tpope/vim-eunuch'
+  Plug 'neoclide/jsonc.vim'
   finish
 endif
