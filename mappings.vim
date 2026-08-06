@@ -77,7 +77,8 @@ map <C-W> bdw
 " Empty line in command mode.
 map <C-U> 1\|D
 " F4: Paste with(out) indent.
-set pastetoggle=<F4>
+" Removed in neovim 0.11
+" set pastetoggle=<F4>
 " F5: Reload File
 map <F5> :e<CR>
 " F6: TagBar -- Vim Class Outline viewer
