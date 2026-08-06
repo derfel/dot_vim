@@ -6,8 +6,10 @@ if has('autocmd') && !exists('g:vscode')
     " Clear the auto command group so we don't define it multiple times
     " Idea from http://learnvimscriptthehardway.stevelosh.com/chapters/14.html
     autocmd!
-    " No formatting on o key newlines
-    autocmd BufNewFile,BufEnter * set formatoptions-=o
+    " No formatting on o key newlines. Must be setlocal: plain :set on a
+    " buffer-local option also overwrites the global value, which leaked the
+    " markdown-only 't' below into every buffer entered afterwards.
+    autocmd BufNewFile,BufEnter * setlocal formatoptions-=o
 
     " No more complaining about untitled documents
     autocmd FocusLost silent! :wa
@@ -51,6 +53,10 @@ if has('autocmd') && !exists('g:vscode')
 
     " Highlight .mdx files as markdown
     autocmd BufRead,BufNewFile *.mdx set filetype=markdown
+
+    " Auto-wrap text while typing, prose only. Upstream sets 't' globally in
+    " config.vim, we only want it here.
+    autocmd FileType markdown setlocal formatoptions+=t
 
     " Set conceallevel to 2 for json files
     " autocmd FileType json setlocal conceallevel=2
